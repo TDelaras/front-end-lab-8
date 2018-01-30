@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: rgba(198, 238, 252, 0.53);
+  color: white; }
+
+#content {
+  margin: 10px auto;
+  padding: 25px 10px 25px 20px;
+  width: 900px;
+  background-color: #3b3b3b; }
+  #content h1 {
+    text-align: center;
+    text-transform: uppercase; }
+  #content h1,
+  #content h2 {
+    color: #fccd10;
+    margin: 15px 0; }
+  #content p {
+    margin: 15px 0; }
+  #content img {
+    border: 2px solid #fccd10;
+    padding: 2px; }
+    #content img.img-left {
+      float: left;
+      margin-right: 15px; }
+    #content img.img-right {
+      float: right;
+      margin: 0 0 15px 15px; }
+  #content .brief {
+    background-color: #fff178;
+    width: 95.5%;
+    float: none;
+    padding: 20px;
+    margin-right: 0px;
+    color: black;
+    margin-bottom: 40px; }
+  #content table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 50px;
+    color: black; }
+    #content table caption {
+      text-align: right; }
+    #content table th {
+      text-transform: uppercase;
+      font-weight: normal;
+      background-color: #94a34e;
+      text-align: left;
+      padding: 10px 0 10px 20px;
+      border-right: 1px solid #ffffff; }
+      #content table th:last-child {
+        border: none; }
+    #content table td {
+      border-bottom: 2px solid #94a34e;
+      padding: 10px 0 10px 20px;
+      font-size: 90%;
+      background-color: #677d01;
+      color: white; }
+  #content a {
+    color: #f5c70f; }
+  #content form {
+    color: #f5c70f;
+    margin-right: 15px; }
+    #content form .name {
+      display: inline-block;
+      width: 48.9%; }
+    #content form div:first-child {
+      margin-right: 15px; }
+    #content form input, #content form textarea {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0;
+      outline: none; }
+    #content form h4, #content form button {
+      text-transform: uppercase;
+      font-weight: normal; }
+    #content form .form-box {
+      margin-bottom: 10px; }
+    #content form button {
+      background: none;
+      border: 1px solid #f5c70f;
+      color: #f5c70f;
+      padding: 10px 50px;
+      font-size: 20px; }
+      #content form button:hover {
+        background: #f5c70f;
+        color: white; }
+
+/*# sourceMappingURL=style2.css.map */

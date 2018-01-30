@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #dcbb9a;
+  color: #000000; }
+
+#content {
+  margin: 10px auto;
+  padding: 25px 10px 25px 20px;
+  width: 900px;
+  background-color: #ffffff; }
+  #content h1 {
+    text-align: center; }
+  #content h1,
+  #content h2 {
+    color: #893c00;
+    margin: 15px 0; }
+  #content p {
+    margin: 15px 0; }
+  #content img {
+    border: 2px solid #893c00;
+    padding: 2px; }
+    #content img.img-left {
+      float: left;
+      margin-right: 15px; }
+    #content img.img-right {
+      float: right;
+      margin: 0 0 15px 15px; }
+  #content .brief {
+    background-color: #fadcba;
+    width: 45%;
+    float: left;
+    padding: 20px;
+    margin-right: 15px;
+    color: black; }
+  #content table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 50px;
+    color: black; }
+    #content table caption {
+      text-align: right; }
+    #content table th {
+      text-transform: uppercase;
+      font-weight: normal;
+      background-color: #e0e0e0;
+      text-align: left;
+      padding: 10px 0 10px 20px;
+      border-right: 1px solid #ffffff; }
+      #content table th:last-child {
+        border: none; }
+    #content table td {
+      border-bottom: 2px solid #e0e0e0;
+      padding: 10px 0 10px 20px;
+      font-size: 90%;
+      background-color: white;
+      color: #000000; }
+  #content a {
+    color: #3d70a1; }
+  #content form {
+    color: #808080;
+    margin-right: 15px; }
+    #content form .name {
+      display: inline-block;
+      width: 48.9%; }
+    #content form div:first-child {
+      margin-right: 15px; }
+    #content form input, #content form textarea {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0;
+      outline: none; }
+    #content form h4, #content form button {
+      text-transform: uppercase;
+      font-weight: normal; }
+    #content form .form-box {
+      margin-bottom: 10px; }
+    #content form button {
+      background: none;
+      border: 1px solid #3d70a1;
+      color: #3d70a1;
+      padding: 10px 50px;
+      font-size: 20px; }
+      #content form button:hover {
+        background: #3d70a1;
+        color: white; }
+
+/*# sourceMappingURL=style1.css.map */
