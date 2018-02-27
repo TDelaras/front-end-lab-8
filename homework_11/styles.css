@@ -1,0 +1,29 @@
+li {
+	list-style: none;
+}
+#root {
+	margin: 50px;
+}
+.folder {
+	color: gold;
+}
+.file{
+	color: gray;
+}
+.content {
+	display: flex;
+	font-size: 20px;
+}
+.empty-folder {
+	font-style: italic;
+	font-size: 20px;
+}
+.content:hover {
+	background-color: lightgray;
+}
+.content ul {
+	display: none;
+}
+li ul, .empty-folder {
+	display: none;
+}
