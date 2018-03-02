@@ -1,0 +1,91 @@
+/* Your styles goes here */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #1C1C1F;
+}
+a {
+	text-decoration: none;
+}
+.thumbnails {
+	padding-left: 10px;
+	width: 80%;
+}
+h1, h2, h4, .level {
+	color: #A19E86;
+}
+.thumbnails h1 {
+	margin: 40px 0;
+}
+.img-tanks img {
+	width: 90%;
+}
+.box {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 5px;
+}
+.info-tanks {
+	display: flex;
+}
+.box-obj:hover {
+	background-color: #2C2C2C;
+}
+.level, .model {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 5px;
+}
+
+.model {
+	color: #D7D2B7;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 150px;
+}
+.tanks-details {
+	padding: 10px;
+}
+.tanks-details h1 {
+	margin: 20px 0;
+}
+.box-details {
+	display: flex;
+}
+.preview, .characteristic {
+	width: 50%;
+}
+h2 {
+	margin-bottom: 20px;
+}
+table {
+	border-collapse: collapse;
+	color: #D7D2B7;
+}
+tr, td {
+     border: 1px solid #D7D2B7;
+}
+td:first-child {
+	padding: 10px 350px 10px 10px;
+}
+td:last-child {
+	padding: 10px 150px 10px 10px;
+}
+.level-details, .model-details {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 10px;
+	color: #A19E86;
+	font-size: 24px;
+}
+.level-details {
+	text-transform: lowercase;
+}
+.info-tanks-details {
+	display: flex;
+	margin: 20px 0;
+}
